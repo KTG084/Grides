@@ -39,7 +39,7 @@
 
 ## 📸 Dashboard
 
-![ASTRAM Dashboard](./assets/dashboard.png)
+![ASTRAM Preview](./preview.webp)
 
 *Sticky header with Cognitive Grid pulse · Left: 420 px form panel with dropdowns, coordinates, description, presets · Right: dark Leaflet map with incident pin + animated dispatch route line · Bottom: staggered result cards with Bayesian forecast, road closure verdict, SOP banner, and RL deployment summary*
 
