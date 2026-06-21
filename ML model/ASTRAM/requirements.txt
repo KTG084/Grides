@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi
+uvicorn
+pydantic
+pandas
+scikit-learn==1.5.1
+xgboost
+lightgbm
+torch
+transformers
+pulp
+networkx
+joblib
+sentence-transformers
