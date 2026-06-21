@@ -1,191 +1,336 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/ASTRAM--AI-v8.2%20TITAN-00ff88?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01ek0yIDE3bDEwIDUgMTAtNS0xMC01LTEwIDV6TTIgMTJsMTAgNSAxMC01LTEwLTUtMTAgNXoiIGZpbGw9IndoaXRlIi8+PC9zdmc+" alt="ASTRAM-AI"/>
+```
+ █████╗ ███████╗████████╗██████╗  █████╗ ███╗   ███╗       █████╗ ██╗
+██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗████╗ ████║      ██╔══██╗██║
+███████║███████╗   ██║   ██████╔╝███████║██╔████╔██║█████╗███████║██║
+██╔══██║╚════██║   ██║   ██╔══██╗██╔══██║██║╚██╔╝██║╚════╝██╔══██║██║
+██║  ██║███████║   ██║   ██║  ██║██║  ██║██║ ╚═╝ ██║      ██║  ██║██║
+╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝      ╚═╝  ╚═╝╚═╝
+```
 
-# 🚦 ASTRAM-AI
-### **Adaptive Smart Traffic Response & Analysis Management**
-#### *Intelligent Traffic Incident Management Powered by Bayesian AI + LLM Reasoning*
+**Adaptive Smart Traffic Response & Analysis Management**
+
+`v8.2 TITAN` · Zero-Touch Multi-Modal Probabilistic Grid · Bengaluru, India
 
 ---
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org)
-[![Leaflet](https://img.shields.io/badge/Leaflet-Maps-199900?style=flat-square&logo=leaflet&logoColor=white)](https://leafletjs.com)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Cognitive%20Grid-ONLINE-00ff88?style=flat-square&logo=statuspage&logoColor=white)]()
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.9-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-AI%20Server-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+![Cognitive Grid](https://img.shields.io/badge/%F0%9F%9F%A2%20COGNITIVE%20GRID-ONLINE-00ff88?style=flat-square)
+![Dispatch Nodes](https://img.shields.io/badge/Dispatch%20Nodes-1%2C000%20BLR%20Grid-blueviolet?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 <br/>
 
-> **ASTRAM-AI** is a full-stack, AI-powered traffic incident management platform that combines **Bayesian forecasting**, **LLM reasoning**, and **Reinforcement Learning (RL) agent deployment** to help traffic authorities predict, assess, and respond to road incidents in real time — with sub-second latency.
+> ASTRAM-AI turns a raw traffic incident report into a full deployment plan in under a second.
+> A **PyTorch neural network** predicts impact and duration. A **rule-based LLM proxy** classifies the
+> SOP and urgency from free-text description. A **linear-programming RL optimizer** dispatches
+> officers from 1,000 city grid nodes. A **Spring Boot** middleware ties it all together.
 
 </div>
 
 ---
 
-## 📸 System Preview
+## 📸 Dashboard
 
-<table>
-<tr>
-<td width="60%">
+![ASTRAM Dashboard](./assets/dashboard.png)
 
-**Live Dashboard — Bengaluru Traffic Control**
-
-![ASTRAM Dashboard](https://via.placeholder.com/700x400/0d1117/00ff88?text=ASTRAM+v8.2+TITAN+Dashboard)
-
-*Cognitive Grid ONLINE — Bayesian Forecast + LLM Reasoning Engine*
-
-</td>
-<td width="40%">
-
-**Key Metrics at a Glance**
-
-| Metric | Value |
-|--------|-------|
-| 🔴 Impact Score | **85.92 / 100** |
-| ⏱ Est. Duration | **91 min** |
-| 🚧 Road Closure | **REQUIRED** |
-| 🚨 Priority | **CODE RED** |
-| 👮 Officers Deployed | **10 Units** |
-| 🔒 Model Uncertainty | **0.769 σ** |
-
-</td>
-</tr>
-</table>
+*Sticky header with Cognitive Grid pulse · Left: 420 px form panel with dropdowns, coordinates, description, presets · Right: dark Leaflet map with incident pin + animated dispatch route line · Bottom: staggered result cards with Bayesian forecast, road closure verdict, SOP banner, and RL deployment summary*
 
 ---
 
-## 🏗 System Architecture
+## 🏗 Architecture
+
+Three independent services, two HTTP hops, one self-contained HTML page.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                    ASTRAM-AI INTELLIGENT TRAFFIC MANAGEMENT FLOW                │
-│                                                                                 │
-│  ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────────────┐   │
-│  │  FEEDBACK SYSTEM │    │   DATA SOURCES   │    │    PREDICTION ENGINE    │   │
-│  │                  │    │                  │    │                         │   │
-│  │ Event Outcome ──►│    │ Social Media ────┤    │  ┌──────────────────┐  │   │
-│  │ Collection       │    │ Signals          │    │  │Severity Prediction│  │   │
-│  │        │         │    │                  │    │  └──────────────────┘  │   │
-│  │        ▼         │    │ Historical ──────┤    │                         │   │
-│  │ Prediction vs    │    │ Traffic Events   │───►│  ┌──────────────────┐  │   │
-│  │ Actual Analysis  │    │                  │    │  │Duration Prediction│  │   │
-│  │        │         │    │ Live Traffic ────┤    │  └──────────────────┘  │   │
-│  │        ▼         │    │ Events           │    │                         │   │
-│  │ Model Retraining─┤    │                  │    │  ┌──────────────────┐  │   │
-│  └──────────────────┘    │ Weather API ─────┘    │  │Impact Radius Pred │  │   │
-│          ▲               │                        │  └──────────────────┘  │   │
-│          │ Improved Model └──────────────────┘    └──────────┬──────────┘   │
-│          │                        │                           │               │
-│  ┌───────┴──────────────────────────────────────────────────▼────────────┐   │
-│  │              EVENT PROCESSING & FEATURE ENGINEERING                    │   │
-│  └───────────────────────────────────────────────────────────────────────┘   │
-│                                            │                                   │
-│  ┌─────────────────────┐    ┌─────────────▼──────────┐    ┌────────────────┐ │
-│  │ OPTIMIZATION ENGINE │    │                        │    │DECISION SUPPORT│ │
-│  │                     │    │  Resource Allocation   │    │    SYSTEM      │ │
-│  │  Route Diversion ───┤    │  Engine                │───►│                │ │
-│  │  Engine             │    │                        │    │ Traffic Dash   │ │
-│  │                     │    │  Priority Ranking      │    │ Smart Alerts   │ │
-│  └─────────────────────┘    │  Engine                │    │ Officer Deploy │ │
-│                              └────────────────────────┘    └────────────────┘ │
-└─────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                         ASTRAM-AI · System Flow                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   Browser (index.html)                                                   │
+│   ┌────────────────────────────────────────────────────────────────┐    │
+│   │  Vanilla JS + Leaflet.js                                        │    │
+│   │  • Form panel  →  POST /api/dashboard/predict                  │    │
+│   │  • GET /api/dashboard/live-feed  (random CSV row)              │    │
+│   │  • Renders result cards, SOP banner, dispatch route on map     │    │
+│   └────────────────┬───────────────────────────────────────────────┘    │
+│                    │ HTTP (port 8080)                                    │
+│                    ▼                                                     │
+│   Spring Boot Backend  (backend/astram)                                  │
+│   ┌────────────────────────────────────────────────────────────────┐    │
+│   │  TrafficController  →  TrafficEventService                     │    │
+│   │  • POST /api/dashboard/predict  — proxies to AI server         │    │
+│   │  • GET  /api/dashboard/live-feed — reads random CSV row,       │    │
+│   │                                     then proxies to AI server  │    │
+│   │  WebClient  →  POST ${PYTHON_AI_URL}/api/v8/cognitive_grid     │    │
+│   └────────────────┬───────────────────────────────────────────────┘    │
+│                    │ HTTP (port 7860)                                    │
+│                    ▼                                                     │
+│   FastAPI AI Server  (frontend/ASTRAM_AI  or  ML model/ASTRAM)          │
+│   ┌────────────────────────────────────────────────────────────────┐    │
+│   │  POST /api/v8/cognitive_grid                                   │    │
+│   │                                                                │    │
+│   │  Step 1 — AgenticLLMNode.analyze(description)                 │    │
+│   │           keyword → SOP flag, hazmat, sentiment, priority      │    │
+│   │                                                                │    │
+│   │  Step 2 — SentenceTransformer('all-MiniLM-L6-v2')            │    │
+│   │           description → 384-dim text embedding                 │    │
+│   │                                                                │    │
+│   │  Step 3 — V8TitanNet (PyTorch)                                │    │
+│   │           tabular + spatial + time + text → forward pass      │    │
+│   │           outputs: severity, duration mu/sigma, closure logit  │    │
+│   │                                                                │    │
+│   │  Step 4 — PuLP LP Optimizer (RL resource allocator)           │    │
+│   │           1,000-node BLR grid, dynamic cost + priority        │    │
+│   │           → officers_assigned, dispatch_node, barricades      │    │
+│   │                                                                │    │
+│   │  GET  /  — serves index.html + health check                   │    │
+│   └────────────────────────────────────────────────────────────────┘    │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
-
-The system flows through **5 major subsystems**:
-
-| # | Subsystem | Role |
-|---|-----------|------|
-| 1 | **Data Sources** | Ingests social media, historical events, live traffic feeds, and weather APIs |
-| 2 | **Prediction Engine** | Runs Bayesian ML models for severity, duration, and impact radius prediction |
-| 3 | **Optimization Engine** | Allocates resources and calculates route diversions |
-| 4 | **Decision Support System** | Delivers actionable outputs: dashboard, alerts, officer plans |
-| 5 | **Feedback System** | Closes the loop — compares predictions vs actuals and retrains the model |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-gridsss/
+Grides-main/
 │
-├── 📂 frontend/                    # React + Leaflet dashboard
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── MapView.jsx         # Leaflet map with incident pin
-│   │   │   ├── BayesianForecast.jsx
-│   │   │   ├── LLMReasoningPanel.jsx
-│   │   │   ├── RLDeployment.jsx
-│   │   │   └── ControlPanel.jsx    # Input form
-│   │   ├── App.jsx
-│   │   └── index.js
-│   ├── public/
-│   └── package.json
+├── 📂 frontend/
+│   └── ASTRAM_AI/                     # FastAPI AI server + single-page dashboard
+│       ├── index.html                 # Complete frontend — Vanilla JS + Leaflet (735 lines)
+│       ├── main.py                    # FastAPI server: V8TitanNet inference + PuLP optimizer
+│       ├── train.py                   # Model training (25 epochs, BCEWithLogitsLoss + MSELoss)
+│       ├── bootstrap.py               # One-shot: generates preprocessors.pkl + v8_dl_model.pth
+│       ├── preprocessors.pkl          # Saved LabelEncoders + StandardScaler
+│       ├── v8_dl_model.pth            # Trained V8TitanNet weights
+│       ├── astram_event_data.csv      # Training dataset
+│       └── requirements.txt           # fastapi, uvicorn, torch, sentence-transformers, pulp…
 │
-├── 📂 backend/                     # FastAPI server
-│   ├── main.py                     # API entry point
-│   ├── routers/
-│   │   └── analysis.py             # /analyze endpoint
-│   ├── services/
-│   │   ├── bayesian_engine.py      # Bayesian impact + duration model
-│   │   ├── llm_reasoning.py        # LLM SOP classifier
-│   │   └── rl_deployment.py        # RL resource dispatch
-│   ├── models/
-│   │   └── schemas.py              # Pydantic I/O models
-│   └── requirements.txt
+├── 📂 backend/
+│   └── astram/                        # Spring Boot 3.2.5 orchestration middleware
+│       ├── src/main/java/com/hackathon/astram_backend/
+│       │   ├── AstramBackendApplication.java
+│       │   ├── config/
+│       │   │   └── WebClientConfig.java       # Reactive WebClient bean
+│       │   ├── controller/
+│       │   │   └── TrafficController.java     # POST /predict · GET /live-feed
+│       │   ├── dto/
+│       │   │   ├── TrafficEventInput.java     # Request DTO (@JsonProperty mapping)
+│       │   │   └── PredictionResponse.java    # Response DTO (Lombok @Data)
+│       │   └── service/
+│       │       └── TrafficEventService.java   # WebClient proxy + CSV random-row reader
+│       ├── src/main/resources/
+│       │   └── application.properties         # python.ai.url env config
+│       ├── Astram_event_data_anonymized.csv   # Live-feed simulation data
+│       ├── Dockerfile                          # Multi-stage: Maven build → JRE 17 runtime
+│       └── pom.xml                            # Spring Boot 3.2.5, WebFlux, OpenCSV, Lombok
 │
-└── 📂 ML model/                    # Training notebooks & saved artifacts
-    ├── training/
-    │   ├── bayesian_model.ipynb
-    │   ├── severity_classifier.ipynb
-    │   └── rl_policy.ipynb
-    ├── saved_models/
-    │   ├── bayesian_regressor.pkl
-    │   └── severity_model.pkl
-    └── data/
-        ├── historical_incidents.csv
-        └── feature_engineering.py
+└── 📂 ML model/
+    └── ASTRAM/                        # Standalone AI server (production / HuggingFace Spaces)
+        ├── main.py                    # FastAPI + V8TitanNet + PuLP (no index.html)
+        ├── train.py                   # Training script (mirrors frontend version)
+        ├── preprocessors.pkl          # Saved encoders + scaler
+        ├── v8_dl_model.pth            # Trained model weights
+        ├── Dockerfile                 # python:3.10-slim, EXPOSE 7860
+        ├── requirements.txt           # CPU-only torch build
+        └── Astram event data_anonymized*.csv  # Anonymised training data
 ```
 
 ---
 
-## 🧠 AI Architecture — Three-Layer Intelligence
+## 🧠 V8TitanNet — Neural Architecture
 
-ASTRAM-AI uses a **three-layer AI stack** for robust, explainable predictions:
+A multi-modal fusion model that merges four input streams through cross-attention before producing three simultaneous predictions.
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                  LAYER 1: BAYESIAN FORECAST              │
-│  • Predicts impact score (0–100), duration (minutes)    │
-│  • Outputs confidence intervals & epistemic uncertainty  │
-│  • Uses log-normal regression over historical incidents  │
-└────────────────────────────┬────────────────────────────┘
-                             │
-┌────────────────────────────▼────────────────────────────┐
-│               LAYER 2: LLM REASONING ENGINE              │
-│  • Classifies Standard Operating Procedure (SOP)        │
-│  • Detects HAZMAT risk from natural language description │
-│  • Infers priority level and sentiment from input text   │
-│  • Forces road closure when critical thresholds met      │
-└────────────────────────────┬────────────────────────────┘
-                             │
-┌────────────────────────────▼────────────────────────────┐
-│             LAYER 3: RL AGENTIC DEPLOYMENT               │
-│  • Dispatches officers to optimal BLR node              │
-│  • Allocates barricades and special units               │
-│  • Optimizes resource allocation via trained RL policy   │
-└─────────────────────────────────────────────────────────┘
+INPUTS
+  ├── Categorical  [event_cause, veh_type]
+  │      └──► Entity Embeddings  (dim 8 + 6 = 14)
+  │                    │
+  ├── Geospatial  [lat, lng]
+  │      └──► FourierSpatialEncoding  (16 freqs → 32-dim sin/cos)
+  │                    │
+  ├── Temporal  [hour_sin, hour_cos, weekday_sin, weekday_cos, is_weekend]
+  │      └──► Cyclic features  (4 + 1 = 5-dim)
+  │                    │
+  │            ┌───────▼────────┐
+  │            │  tabular_proj  │  Linear(14+32+5 → 128)  + GELU
+  │            └───────┬────────┘
+  │                    │
+  └── Text  [description]
+         └──► all-MiniLM-L6-v2  (384-dim)
+                    │
+             ┌──────▼──────┐
+             │  nlp_proj   │  Linear(384 → 128)  + GELU
+             └──────┬──────┘
+                    │
+  ┌─────────────────▼──────────────────────┐
+  │  MultiheadAttention  (4 heads, 128-dim) │
+  │  stack([tabular_128, nlp_128])          │
+  │  → attend → mean pool → 128-dim        │
+  └─────────────────┬──────────────────────┘
+                    │
+  ┌─────────────────▼──────────────────────┐
+  │  GatedResidualNetwork (GELU + GLU gate) │
+  │  Dropout(0.3)                           │
+  │  GatedResidualNetwork                   │
+  └──────┬──────────┬───────────┬──────────┘
+         │          │           │
+  ┌──────▼───┐ ┌────▼─────┐ ┌──▼──────────┐
+  │ severity │ │duration  │ │   closure   │
+  │  _head   │ │  _mu     │ │   _head     │
+  │sigmoid×  │ │  _sigma  │ │  (logit)    │
+  │  100     │ │(log-norm)│ │ >0.5 = True │
+  └──────────┘ └──────────┘ └─────────────┘
 ```
+
+**Training** (`train.py`):
+
+| Setting | Value |
+|---------|-------|
+| Epochs | 25 |
+| Batch size | 64 |
+| Optimizer | Adam, lr=0.001 |
+| Closure loss | `BCEWithLogitsLoss` with pos_weight (class imbalance) |
+| Severity loss | `MSELoss` × 0.01 |
+| Text encoder | `all-MiniLM-L6-v2` (batch=128, offline) |
+| Saved artifacts | `v8_dl_model.pth`, `preprocessors.pkl` |
+
+**Inference score fusion** (`main.py`):
+```python
+final_sev = min(100.0, base_sev * llm_ctx["sentiment_vector"])
+final_dur = max(5.0, base_dur + (final_sev * 0.3))
+```
+The neural network base severity is multiplied by the LLM sentiment before the response is built. If `force_road_closure` is set by the LLM, the neural network's closure probability is overridden to `True`.
+
+---
+
+## 🤖 AgenticLLMNode — SOP Classifier
+
+A keyword-based rule engine that reads the free-text `description` and returns structured context. Its `sentiment_vector` directly scales the neural network's severity output.
+
+| Trigger keywords | `sop_flag` | `sentiment_vector` | `inferred_priority` | `force_road_closure` |
+|----------------|------------|-------------------|--------------------|--------------------|
+| fire, spill, chemical, hazmat | `HAZMAT_PROTOCOL` | 2.5× | High | ✅ |
+| fatal, crash, injur, accident | `CODE_RED_MEDICAL` | 3.0× | High | ✅ |
+| water, flood, heavy | `CIVIC_INFRA_ALERT` | 1.5× | High | ✅ |
+| block, stuck, jam | *(default)* | 1.2× | Medium | ❌ |
+| *(no match)* | `Standard` | 1.0× | Low | ❌ |
+
+---
+
+## 🚔 PuLP RL Resource Optimizer
+
+Officer deployment is solved as a **linear program** over all 1,000 BLR dispatch nodes — not a simple lookup.
+
+```python
+# Minimise total deployment cost across the city grid
+prob += lpSum([dynamic_costs[i] * x[i] for i in GLOBAL_STATIONS])
+
+# Distance penalty makes the LP prefer nearby nodes
+dynamic_costs[station] = BASE_COSTS[station] + (hash(station + lat + lng) % 150)
+
+# Officers needed scales with severity and priority
+total_officers_needed = max(1, int(final_sev / deployment_divisor))
+prob += lpSum([x[i] for i in GLOBAL_STATIONS]) >= total_officers_needed
+```
+
+| `inferred_priority` | `deployment_divisor` | Officers dispatched at severity 85 |
+|--------------------|--------------------|------------------------------------|
+| High | 8 | ~10 officers |
+| Medium | 15 | ~5 officers |
+| Low | 25 | ~3 officers |
+
+Barricades: `20` if road closure is required, else `int(final_sev / 20)`.
+
+---
+
+## 🌐 Spring Boot Middleware
+
+The Java backend is a **reactive proxy** — it never touches ML logic directly.
+
+```
+TrafficController  (@RestController, @RequestMapping("/api/dashboard"))
+│
+├── POST /predict
+│     receives TrafficEventInput JSON
+│     → trafficEventService.predictTrafficImpact(input)
+│       → WebClient POST to ${PYTHON_AI_URL}/api/v8/cognitive_grid
+│       → Mono<PredictionResponse> returned to browser
+│
+└── GET /live-feed
+      → trafficEventService.fetchRandomEventFromCsv()
+          reads random row from Astram_event_data_anonymized.csv
+          maps columns: [1]=event_type [2]=lat [3]=lng [8]=event_cause
+                        [17]=description [18]=veh_type
+      → trafficEventService.predictTrafficImpact(randomInput)
+      → Mono<PredictionResponse> returned to browser
+```
+
+AI server URL is configured via environment variable:
+```properties
+# application.properties
+python.ai.url=${PYTHON_AI_URL:http://localhost:7860/api/v8/cognitive_grid}
+```
+
+---
+
+## 🗺 Frontend — index.html
+
+A single 735-line file. No build step. No npm. Served directly by FastAPI at `GET /`.
+
+**Map interactions:**
+- Click anywhere on the map → auto-fills `latitude` / `longitude` in the form
+- After analysis: draws a **dashed animated route line** from the computed dispatch node to the incident pin
+- Dispatch node position is derived from a deterministic hash of the node name (~1–2 km offset for visual clarity)
+- `map.fitBounds()` auto-zooms to frame both the incident and the dispatch node
+
+**Result card rendering:**
+
+| Card | Content | Severity threshold |
+|------|---------|-------------------|
+| Impact Score | `sev.toFixed(1)` / 100 + priority badge | ≥65 = critical (red), ≥35 = warning (amber) |
+| Est. Duration | `Math.round(duration)` minutes + CI string | — |
+| Road Closure | REQUIRED / NOT NEEDED + barricade count | `roadClosure \|\| forcedClosure` |
+| Model Uncertainty | `epistemic.toFixed(4) σ` + confidence bar | <30% = High, <60% = Moderate, else Low |
+
+**SOP banner mapping:**
+
+| `sop_flag` | Icon | Label |
+|-----------|------|-------|
+| `HAZMAT_PROTOCOL` | ☢️ | HAZMAT Protocol Active |
+| `CODE_RED_MEDICAL` | 🚨 | Code Red — Medical Emergency |
+| `CIVIC_INFRA_ALERT` | 🌊 | Civic Infrastructure Alert |
+| `Standard` | ✅ | Standard Operating Procedure |
 
 ---
 
 ## 🔌 API Reference
 
-### `POST /analyze` — Run Cognitive Analysis
+### FastAPI AI Server
 
-**Request Body:**
+#### `GET /`
+```json
+{
+  "status": "online",
+  "engine": "ASTRAM-AI V8.2 TITAN",
+  "docs_url": "/docs",
+  "prediction_url": "/api/v8/cognitive_grid"
+}
+```
 
+#### `POST /api/v8/cognitive_grid`
+
+**Request:**
 ```json
 {
   "event_type": "accident",
@@ -197,19 +342,7 @@ ASTRAM-AI uses a **three-layer AI stack** for robust, explainable predictions:
 }
 ```
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `event_type` | `string` | Type of incident (`accident`, `flood`, `hazmat`, etc.) |
-| `event_cause` | `string` | Specific cause (`collision`, `breakdown`, `protest`, etc.) |
-| `latitude` | `float` | GPS latitude coordinate |
-| `longitude` | `float` | GPS longitude coordinate |
-| `veh_type` | `string` | Vehicle involved (`car`, `truck`, `bus`, `bike`) |
-| `description` | `string` | Free-text natural language incident description |
-
----
-
-**Response Body:**
-
+**Response:**
 ```json
 {
   "bayesian_forecast": {
@@ -235,22 +368,12 @@ ASTRAM-AI uses a **three-layer AI stack** for robust, explainable predictions:
 }
 ```
 
-| Response Field | Meaning |
-|----------------|---------|
-| `mean_impact_score` | Predicted severity out of 100 |
-| `mean_duration_mins` | Expected clearance time in minutes |
-| `confidence_interval` | 95% Bayesian confidence bound (log-space) |
-| `epistemic_uncertainty` | Model uncertainty score (lower = more confident) |
-| `ai_predicted_road_closure` | Whether ML model recommends closure |
-| `sop_flag` | SOP code triggered (`CODE_RED_MEDICAL`, `STANDARD`, etc.) |
-| `hazmat_risk` | Boolean HAZMAT detection from description |
-| `sentiment_vector` | Linguistic severity from description (0–5 scale) |
-| `inferred_priority` | Aggregated priority: `Low`, `Medium`, `High`, `Critical` |
-| `force_road_closure` | LLM override for road closure |
-| `dispatch_node` | Nearest resource depot + unit count |
-| `officers_assigned` | Number of officers to deploy |
-| `barricades` | Barricade units recommended |
-| `special_units` | Special response unit type |
+### Spring Boot Backend
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/dashboard/predict` | Proxies a manual incident input to the AI server |
+| `GET` | `/api/dashboard/live-feed` | Picks a random CSV row and proxies it to the AI server |
 
 ---
 
@@ -258,309 +381,173 @@ ASTRAM-AI uses a **three-layer AI stack** for robust, explainable predictions:
 
 ### Prerequisites
 
-- Python 3.10+
-- Node.js 18+
-- pip & npm
+| Tool | Version |
+|------|---------|
+| Python | 3.10+ |
+| Java | 17 |
+| Maven | 3.8+ (or use included `mvnw`) |
 
-### 1. Clone the Repository
+### 1 · Clone
 
 ```bash
 git clone https://github.com/KTG084/gridsss.git
 cd gridsss
 ```
 
-### 2. Backend Setup
+### 2 · AI Server
 
 ```bash
-cd backend
+cd frontend/ASTRAM_AI
+
 pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+
+# First run only — generate model artifacts without training data
+python bootstrap.py
+
+# OR train on real data (takes a few minutes)
+python train.py
+
+# Start the server — also serves index.html at GET /
+uvicorn main:app --reload --host 0.0.0.0 --port 7860
 ```
 
-The API will be live at `http://127.0.0.1:8000`
+Open `http://localhost:7860` — the full dashboard loads directly from FastAPI.
 
-### 3. Frontend Setup
+### 3 · Spring Boot Backend (optional)
+
+Needed only for the `/live-feed` endpoint and if you want the Java middleware layer.
 
 ```bash
-cd frontend
-npm install
-npm start
+cd backend/astram
+export PYTHON_AI_URL=http://localhost:7860/api/v8/cognitive_grid
+./mvnw spring-boot:run
 ```
 
-The dashboard will open at `http://127.0.0.1:3000`
+Backend runs on `http://localhost:8080`.
 
-### 4. ML Model (Optional — for retraining)
+### 4 · Docker
+
+**AI Server (ML model/ASTRAM):**
+```bash
+cd "ML model/ASTRAM"
+docker build -t astram-ai .
+docker run -p 7860:7860 astram-ai
+```
+
+**Spring Boot Backend:**
+```bash
+cd backend/astram
+docker build -t astram-backend .
+docker run -p 8080:8080 \
+  -e PYTHON_AI_URL=http://host.docker.internal:7860/api/v8/cognitive_grid \
+  astram-backend
+```
+
+### 5 · Retrain the Model
 
 ```bash
-cd "ML model"
-pip install jupyter scikit-learn pandas numpy
-jupyter notebook
-```
-
-Open `training/bayesian_model.ipynb` and run all cells.
-
----
-
-## 🗺 Dashboard Walkthrough
-
-The ASTRAM-AI frontend (built with **React + Leaflet**) provides:
-
-### Control Panel (Left Sidebar)
-- **Event Type** dropdown — accident, flood, hazmat, protest
-- **Event Cause** dropdown — collision, breakdown, fire, etc.
-- **Vehicle Type** selector
-- **Lat/Lng** input (or click-to-place on map)
-- **Incident Description** free-text box
-- **Quick Presets** — Fatal Crash, Flood, Hazmat (one-click templates)
-- **Run Cognitive Analysis** button
-
-### Interactive Map (Center)
-- Powered by **Leaflet + OpenStreetMap + CARTO** tiles
-- Dark-mode rendering with incident pin placement
-- Click anywhere on map to auto-populate coordinates
-- Real-time incident location marker
-
-### Results Panel (Bottom)
-
-| Panel | Content |
-|-------|---------|
-| 🎯 **Bayesian Forecast** | Impact score, duration, confidence interval |
-| 🚧 **Road Closure Decision** | AI recommendation with rationale |
-| 📊 **Model Uncertainty** | σ value + confidence bar |
-| 🤖 **LLM Reasoning Engine** | SOP flag, HAZMAT risk, priority |
-| 🚔 **RL Deployment Plan** | Officers, barricades, dispatch node |
-
----
-
-## 🔬 ML Model Details
-
-### Bayesian Regression (Impact + Duration)
-
-The core prediction engine uses **Bayesian log-normal regression** trained on historical Bengaluru traffic incident data:
-
-```
-Features:
-  - event_type (encoded)       → categorical
-  - event_cause (encoded)      → categorical
-  - vehicle_type (encoded)     → categorical
-  - latitude / longitude       → geospatial features
-  - time_of_day (engineered)   → cyclical sin/cos
-  - road_category              → OSM-derived
-
-Targets:
-  - log(impact_score)          → Gaussian posterior
-  - log(duration_minutes)      → Gaussian posterior
-
-Output:
-  - Posterior mean + 95% CI via sampling
-  - Epistemic uncertainty = variance across samples
-```
-
-### LLM Reasoning Engine
-
-Uses an LLM to extract:
-- **SOP classification** from incident description
-- **HAZMAT detection** (keywords + semantic context)
-- **Sentiment vector** (linguistic urgency score 0–5)
-- **Priority inference** combining ML score + LLM severity
-
-### RL Agentic Deployment
-
-A trained **Reinforcement Learning policy** maps:
-```
-(impact_score, priority, location) → (dispatch_node, officers, barricades)
-```
-
-Trained with reward shaping based on:
-- Time-to-clear reduction
-- Resource efficiency (minimize over-deployment)
-- Historical outcome data from the Feedback System
-
----
-
-## 🔄 Feedback Loop & Model Retraining
-
-ASTRAM-AI is **self-improving**. The Feedback System:
-
-1. **Collects event outcomes** — actual duration, final officer count, closure status
-2. **Compares** predictions vs actuals (logged to database)
-3. **Flags** high-error incidents for review
-4. **Retrains** the Bayesian model periodically with new ground truth
-5. **Pushes improved model** back to the Prediction Engine
-
-```
-Real Incident ──► Outcome Collection ──► Prediction vs Actual
-                                                   │
-                              Model Retraining ◄───┘
-                                    │
-                    Prediction Engine ◄── Improved Weights
+cd frontend/ASTRAM_AI   # or ML model/ASTRAM
+python train.py
+# Outputs: preprocessors.pkl   v8_dl_model.pth
 ```
 
 ---
 
-## 🌐 SOP Codes Reference
+## 📊 Example Scenarios
 
-| SOP Code | Trigger Condition | Response |
-|----------|------------------|----------|
-| `CODE_RED_MEDICAL` | High impact + vehicle collision | Emergency medical + road closure |
-| `CODE_ORANGE_HAZMAT` | HAZMAT risk detected | Hazmat team + 500m exclusion zone |
-| `CODE_YELLOW_STANDARD` | Medium impact, no special risk | Standard traffic officers |
-| `CODE_GREEN_MONITOR` | Low impact, self-resolving | Remote monitoring only |
-| `STANDARD` | Default response | SOP playbook dispatch |
+### 🔴 Truck overturn — CODE RED
+
+```
+Input
+  event_cause : collision | veh_type: truck | lat/lng: 12.9716, 77.5946
+  description : "marriage procession nearby, truck overturned, little road space left"
+
+LLM   → "accident" keyword → CODE_RED_MEDICAL | sentiment 3.0× | force_road_closure
+Model → base_sev ~28.6 × 3.0 = 85.9 | duration ~65 + 85.9×0.3 ≈ 91 min
+PuLP  → High priority (divisor 8) → 10 officers → BLR_Node_0248
+```
+
+### 🟡 Minor car accident — Standard
+
+```
+Input
+  event_cause : collision | veh_type: car
+  description : "Minor accident"
+
+LLM   → no strong keywords → Standard | sentiment 1.0×
+Output → impact 80.5 | duration 24 min | road closure NOT NEEDED
+```
+
+### ☢️ Chemical spill — HAZMAT
+
+```
+Input
+  description : "chemical spill on highway, strong smell"
+
+LLM   → "chemical" → HAZMAT_PROTOCOL | sentiment 2.5× | hazmat_risk true
+Output → special_units: "Hazmat Team" | force_road_closure: true
+```
+
+### 🌊 Flooding — Civic Infrastructure Alert
+
+```
+Input
+  description : "underpass flooded, water level rising, 2 lanes blocked"
+
+LLM   → "flood" + "water" → CIVIC_INFRA_ALERT | sentiment 1.5×
+Output → road closure REQUIRED | sop: CIVIC_INFRA_ALERT
+```
 
 ---
 
 ## 🛠 Tech Stack
 
-<table>
-<tr>
-<th>Layer</th>
-<th>Technology</th>
-<th>Purpose</th>
-</tr>
-<tr>
-<td><b>Frontend</b></td>
-<td>React 18, Leaflet.js, CARTO tiles</td>
-<td>Interactive map dashboard</td>
-</tr>
-<tr>
-<td><b>Backend</b></td>
-<td>FastAPI (Python), Uvicorn</td>
-<td>REST API + AI orchestration</td>
-</tr>
-<tr>
-<td><b>ML Core</b></td>
-<td>scikit-learn, NumPy, Pandas</td>
-<td>Bayesian regression models</td>
-</tr>
-<tr>
-<td><b>LLM Engine</b></td>
-<td>OpenAI / Anthropic API</td>
-<td>SOP reasoning & NLP classification</td>
-</tr>
-<tr>
-<td><b>RL Agent</b></td>
-<td>Custom RL policy (Gym)</td>
-<td>Resource dispatch optimization</td>
-</tr>
-<tr>
-<td><b>Maps</b></td>
-<td>OpenStreetMap + Leaflet</td>
-<td>Geospatial visualization</td>
-</tr>
-<tr>
-<td><b>Geocoding</b></td>
-<td>GPS coordinates (lat/lng)</td>
-<td>Incident location pinning</td>
-</tr>
-</table>
-
----
-
-## 📊 Sample Scenarios
-
-### 🔴 Scenario A: Fatal Crash (CODE RED)
-
-```json
-Input:
-  event_type: "accident"
-  event_cause: "collision"
-  veh_type: "truck"
-  description: "marriage procession nearby, truck overturned, little road space left"
-
-Output:
-  impact_score: 85.92 / 100
-  duration: 91 minutes
-  road_closure: REQUIRED
-  sop: CODE_RED_MEDICAL
-  officers: 10
-  barricades: 20
-```
-
-### 🟡 Scenario B: Minor Accident (LOW PRIORITY)
-
-```json
-Input:
-  event_type: "accident"
-  event_cause: "collision"
-  veh_type: "car"
-  description: "Minor accident"
-
-Output:
-  impact_score: 80.5 / 100
-  duration: 24 minutes
-  road_closure: NOT NEEDED
-  priority: Low Priority
-  officers: 3
-```
-
-### 🟠 Scenario C: Flood Event
-
-```json
-Input:
-  event_type: "flood"
-  event_cause: "waterlogging"
-  description: "underpass submerged, 2 lanes blocked"
-
-Output:
-  impact_score: ~70+
-  road_closure: LIKELY
-  sop: STANDARD
-  special_units: Water Rescue Team
-```
-
----
-
-## 📍 Coverage Area
-
-Currently optimized for **Bengaluru (Bangalore), Karnataka, India**, with node dispatch grid covering:
-
-- 📍 Central Bengaluru — BLR_Node_0001 to BLR_Node_0100
-- 📍 North Bengaluru — BLR_Node_0101 to BLR_Node_0200
-- 📍 South Bengaluru — BLR_Node_0201 to BLR_Node_0300
-- 📍 East/West corridors — BLR_Node_0301+
-
-> The system can be extended to any city by re-training the Bayesian model on local historical incident data and updating the node dispatch map.
+| Layer | Technology | Version |
+|-------|-----------|---------|
+| Neural network | PyTorch | 2.9.0 |
+| NLP embeddings | sentence-transformers (`all-MiniLM-L6-v2`) | 3.0.1 |
+| RL / LP optimizer | PuLP | 2.8.0 |
+| ML preprocessing | scikit-learn | 1.9.0 |
+| AI API server | FastAPI + Uvicorn | 0.111.0 / 0.30.1 |
+| Java middleware | Spring Boot 3.2.5 + WebFlux | Java 17 |
+| CSV parsing | OpenCSV | 5.9 |
+| Boilerplate reduction | Lombok | — |
+| Frontend | Vanilla JS + Leaflet.js | 1.9.4 |
+| Map tiles | CARTO Dark Matter via OpenStreetMap | — |
+| Containers | Docker (python:3.10-slim + eclipse-temurin:17-jre) | — |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how to get started:
-
 ```bash
-# Fork the repo, then:
-git checkout -b feature/your-feature-name
-git commit -m "feat: add your feature"
-git push origin feature/your-feature-name
+git checkout -b feat/your-feature
+git commit -m "feat: clear description of what changed"
+git push origin feat/your-feature
 # Open a Pull Request
 ```
 
-### Development Guidelines
-
-- Backend: Follow PEP8, add type hints, use Pydantic models for all I/O
-- Frontend: Use functional React components with hooks
-- ML: Document all feature engineering steps in notebooks
-- Tests: Add pytest tests for all new API endpoints
+**Guidelines:**
+- **AI server** — keep architecture changes in `train.py`; regenerate `v8_dl_model.pth` and `preprocessors.pkl` before committing
+- **Backend** — field names in `PredictionResponse.java` must match the JSON keys via `@JsonProperty`
+- **Frontend** — `renderResults()` in `index.html` consumes raw JSON directly; keep field names in sync with the API response
+- **Data** — anonymise any new CSV rows before committing
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Authors
-
-Built with ❤️ for smarter cities and safer roads.
-
-> *ASTRAM-AI — Cognitive Grid Online* 🟢
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
+<br/>
 
-**[⬆ Back to Top](#-astram-ai)**
+*Built for smarter cities and faster emergency response.*
+
+**ASTRAM-AI · Cognitive Grid Online** 🟢
+
+[⬆ Back to top](#)
 
 </div>
